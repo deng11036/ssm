@@ -1,6 +1,7 @@
 package com.itcast.domain;
 
-import com.itcast.DateUtils;
+import com.itcast.utils.DateUtils;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
 
@@ -12,6 +13,7 @@ public class Product {
     private String productNum;
     private String productName;
     private String cityName;
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm")
     private Date departureTime;
     private String departureTimeStr;
     private double productPrice;
@@ -60,9 +62,9 @@ public class Product {
     }
 
     public String getDepartureTimeStr() {
-        if (departureTime!=null){
-            String departureTimeStr = DateUtils.dateToString(departureTime,"yyyy-MM-dd HH:mm:ss");
-        }
+      if (departureTime!=null){
+          departureTimeStr = DateUtils.dateToString(departureTime,"yyyy-MM-dd HH:mm:ss");
+      }
         return departureTimeStr;
     }
 

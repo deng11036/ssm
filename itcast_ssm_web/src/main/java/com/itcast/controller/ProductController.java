@@ -17,15 +17,20 @@ public class ProductController {
     @Autowired
     private ProductService productService;
 
-    @RequestMapping("/findAll")
+    @RequestMapping("/findAll.do")
     @ResponseBody
     public ModelAndView findAll(){
-        System.out.println("hehhehe");
         ModelAndView mv = new ModelAndView();
         List<Product> productList = productService.findAll();
         mv.addObject("productList",productList);
         mv.setViewName("product-list");
         return mv;
+    }
+
+    @RequestMapping("/save.do")
+    public String save(Product product){
+        productService.save(product);
+        return "redirect:findAll.do";
     }
 
 }

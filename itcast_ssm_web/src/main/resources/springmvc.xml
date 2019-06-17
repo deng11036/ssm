@@ -21,6 +21,15 @@ RequestMappingHandlerAdapter（ 处 理 适 配 器 ），可用在Spring-xml.xm
     <mvc:annotation-driven></mvc:annotation-driven>
 
 
+    <!--<bean id="conversionService" class="org.springframework.context.support.ConversionServiceFactoryBean">-->
+        <!--<property name="converters">-->
+            <!--<list>-->
+                <!--<bean class="com.itcast.converter.DateConverter"></bean>-->
+            <!--</list>-->
+        <!--</property>-->
+    <!--</bean>-->
+
+
     <!--静态资源放行-->
     <mvc:default-servlet-handler/>
     <!--<mvc:resources mapping="/js/**" location="/js/"></mvc:resources>-->
