@@ -23,7 +23,7 @@ public class testProduct {
     public void test2(){
         ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext-dao.xml");
         OrdersDao ordersDao = applicationContext.getBean(OrdersDao.class);
-        List<Orders> ordersList = ordersDao.findAll();
-        System.out.println(ordersList);
+        Orders orders = ordersDao.findById("5DC6A48DD4E94592AE904930EA866AFA");
+        System.out.println(orders);
     }
 }
