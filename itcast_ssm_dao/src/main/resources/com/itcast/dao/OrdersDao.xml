@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.itcast.dao.OrdersDao">
+    <resultMap id="findOrders" type="com.itcast.domain.Orders">
+        <result column="id" property="id"></result>
+        <result column="ordernum" property="orderNum"></result>
+        <result column="ordertime" property="orderTime"></result>
+        <result column="orderstatus" property="orderStatus"></result>
+        <association property="product" javaType="com.itcast.domain.Product">
+            <result column="productname" property="productName"></result>
+            <result column="productprice" property="productPrice"></result>
+        </association>
+    </resultMap>
+    <select id="findAll" resultMap="findOrders">
+      select o.id,o.ordernum,o.ordertime,o.orderstatus,p.productname,p.productprice from orders o , product p where o.productId=p.id
+    </select>
+
+    <!--//根据订单id查询订单、旅客、会员信息-->
+    <resultMap id="findOrdersList" type="com.itcast.domain.Orders">
+        <result column="ordernum" property="orderNum"></result>
+        <result column="ordertime" property="orderTime"></result>
+        <result column="orderstatus" property="orderStatus"></result>
+        <result column="peoplecount" property="peopleCount"></result>
+        <result column="paytype" property="payType"></result>
+        <result column="orderdesc" property="orderDesc"></result>
+        <association property="product" javaType="com.itcast.domain.Product">
+            <result column="productnum" property="productNum"></result>
+            <result column="productname" property="productName"></result>
+            <result column="cityname" property="cityName"></result>
+            <result column="departuretime" property="departureTime"></result>
+            <!--<result column="departuretimeStr" property="departureTimeStr"></result>-->
+            <result column="productprice" property="productPrice"></result>
+            <result column="productdesc" property="productDesc"></result>
+            <result column="productstatus" property="productStatus"></result>
+            <!--<result column="productstatusstr" property="productStatusStr"></result>-->
+        </association>
+        <association property="member" javaType="com.itcast.domain.Member">
+            <result property="name" column="mname"></result>
+            <result property="nickname" column="nickname"></result>
+            <result property="phoneNum" column="mphonenum"></result>
+            <result property="email" column="email"></result>
+        </association>
+        <collection property="travellers" ofType="com.itcast.domain.Traveller">
+            <result property="name" column="tname"></result>
+            <result property="sex" column="sex"></result>
+            <result property="phoneNum" column="tphonenum"></result>
+            <result property="credentialsType" column="credentialstype"></result>
+            <!--<result property="credentialsTypeStr" column="credentialstypestr"></result>-->
+            <result property="credentialsNum" column="credentialsnum"></result>
+            <result property="travellerType" column="travellertype"></result>
+            <!--<result property="travellerTypeStr" column="travellertypestr"></result>-->
+        </collection>
+    </resultMap>
+    <select id="findById" parameterType="string" resultMap="findOrdersList">
+             select
+                    tw.ordernum,tw.ordertime,tw.orderstatus,tw.peoplecount,tw.paytype,tw.orderdesc,
+                    tw.productnum,tw.productname,tw.cityname,tw.departuretime,tw.productprice,tw.productdesc,tw.productstatus,
+                    tw.mname ,tw.nickname,tw.mphonenum ,tw.email,
+                    tw.tname,tw.sex,tw.tphonenum,tw.credentialstype,tw.credentialsnum,tw.travellertype
+            from (
+                  select
+                      o.id,
+                      o.ordernum,o.ordertime,o.orderstatus,o.peoplecount,o.paytype,o.orderdesc,
+                      p.productnum,p.productname,p.cityname,p.departuretime,p.productprice,p.productdesc,
+                      p.productstatus,
+                      m.name mname ,m.nickname,m.phonenum mphonenum,m.email,
+                      t.name tname,t.sex,t.phonenum tphonenum ,t.credentialstype,t.credentialsnum,t.travellertype
+                  from
+                      orders o ,member m,product p, order_traveller  ot ,traveller t
+                  where
+                      o.id=ot.orderid and ot.travellerid =t.id and o.memberid = m.id and o.productid = p.id
+             ) tw
+                  where tw.id=#{ordersid}
+    </select>
+
+</mapper>

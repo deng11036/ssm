@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.itcast.dao.RoleDao">
+
+
+    <resultMap id="Roles" type="com.itcast.domain.Role">
+        <result property="id" column="id"></result>
+        <result property="roleDesc" column="roleDesc"></result>
+        <result property="roleName" column="roleName"></result>
+        <association property="permissions" column="id" javaType="java.util.List" select="com.itcast.dao.PermissionDao.findById"></association>
+    </resultMap>
+   <select id="findById" parameterType="string" resultMap="Roles">
+    select * from role where id in (select roleid from users_role  where userid = #{userId})
+   </select>
+
+
+    <select id="findAll" resultType="com.itcast.domain.Role">
+        select * from role
+    </select>
+
+    <insert id="save" parameterType="com.itcast.domain.Role">
+        insert into role(roleName,roleDesc) values(#{roleName},#{roleDesc})
+    </insert>
+
+</mapper>
