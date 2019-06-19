@@ -16614,66 +16614,18 @@
       <change afterPath="$PROJECT_DIR$/itcast_ssm_dao/src/main/resources/com/itcast/dao/OrdersDao.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/itcast_ssm_dao/src/main/resources/com/itcast/dao/RoleDao.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/itcast_ssm_dao/src/main/resources/com/itcast/dao/UserInfoDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_dao/target/classes/applicationContext-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_dao/target/classes/com/itcast/dao/OrdersDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_dao/target/classes/com/itcast/dao/OrdersDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_dao/target/classes/com/itcast/dao/ProductDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_dao/target/classes/com/itcast/dao/ProductDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_dao/target/classes/com/itcast/dao/RoleDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_dao/target/classes/com/itcast/dao/RoleDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_dao/target/classes/com/itcast/dao/UserInfoDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_dao/target/classes/com/itcast/dao/UserInfoDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_dao/target/classes/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_dao/target/itcast_ssm_dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_dao/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_dao/target/test-classes/com/itcast/testProduct.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/itcast_ssm_domain/src/main/java/com/itcast/domain/Member.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/itcast_ssm_domain/src/main/java/com/itcast/domain/Orders.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/itcast_ssm_domain/src/main/java/com/itcast/domain/Permission.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/itcast_ssm_domain/src/main/java/com/itcast/domain/Role.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/itcast_ssm_domain/src/main/java/com/itcast/domain/Traveller.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/itcast_ssm_domain/src/main/java/com/itcast/domain/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_domain/target/classes/com/itcast/domain/Member.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_domain/target/classes/com/itcast/domain/Orders.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_domain/target/classes/com/itcast/domain/Permission.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_domain/target/classes/com/itcast/domain/Product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_domain/target/classes/com/itcast/domain/Role.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_domain/target/classes/com/itcast/domain/Traveller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_domain/target/classes/com/itcast/domain/UserInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_domain/target/itcast_ssm_domain-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_domain/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_domain/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/itcast_ssm_service/src/main/java/com/itcast/service/OrdersService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/itcast_ssm_service/src/main/java/com/itcast/service/UserService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/itcast_ssm_service/src/main/java/com/itcast/service/impl/OrdersServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/itcast_ssm_service/src/main/java/com/itcast/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_service/target/classes/applicationContext-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_service/target/classes/com/itcast/service/OrdersService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_service/target/classes/com/itcast/service/ProductService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_service/target/classes/com/itcast/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_service/target/classes/com/itcast/service/impl/OrdersServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_service/target/classes/com/itcast/service/impl/ProductServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_service/target/classes/com/itcast/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_service/target/itcast_ssm_service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/itcast_ssm_utils/src/main/java/com/itcast/converter/DateConverter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/itcast_ssm_utils/src/main/java/com/itcast/utils/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_utils/target/classes/com/itcast/converter/DateConverter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_utils/target/classes/com/itcast/utils/DateUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_utils/target/itcast_ssm_utils-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_utils/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_utils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_utils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_utils/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/itcast_ssm_web/src/main/java/com/itcast/controller/OrdersController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/itcast_ssm_web/src/main/resources/log4j.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/itcast_ssm_web/src/main/resources/spring-security.xml" afterDir="false" />
@@ -16684,25 +16636,6 @@
       <change afterPath="$PROJECT_DIR$/itcast_ssm_web/src/main/webapp/pages/orders-list.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/itcast_ssm_web/src/main/webapp/pages/orders-show.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/itcast_ssm_web/src/main/webapp/pages/product-add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_web/target/classes/com/itcast/controller/OrdersController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_web/target/classes/com/itcast/controller/ProductController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_web/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_web/target/classes/spring-security.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_web/target/classes/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_web/target/tomcat/conf/logging.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_web/target/tomcat/conf/tomcat-users.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_web/target/tomcat/conf/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_web/target/tomcat/logs/access_log.2019-06-19" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/login_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/login_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/pages/aside_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/pages/aside_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/pages/header_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/pages/header_jsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/pages/main_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/itcast_ssm_web/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/pages/main_jsp.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../maven_project/travel/target/classes/cn/itcast/travel/dao/UserDao.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../maven_project/travel/target/classes/cn/itcast/travel/dao/impl/UserDaoImpl.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../maven_project/travel/target/classes/cn/itcast/travel/domain/Category.class" afterDir="false" />
@@ -25610,6 +25543,7 @@
       <change afterPath="$PROJECT_DIR$/../springsecurityTest/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springsecurityTest/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/index_jsp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast_ssm_dao/src/main/java/com/itcast/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/itcast_ssm_dao/src/main/java/com/itcast/dao/ProductDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast_ssm_dao/src/main/resources/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itcast_ssm_dao/src/main/resources/applicationContext-dao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/itcast_ssm_dao/src/main/resources/com/itcast/dao/ProductDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/itcast_ssm_dao/src/main/resources/com/itcast/dao/ProductDao.xml" afterDir="false" />
@@ -25661,7 +25595,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25822,16 +25756,82 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="itcast-ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itcast-ssm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itcast-ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itcast-ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast_ssm_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itcast-ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itcast-ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast_ssm_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itcast-ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itcast-ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast_ssm_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itcast-ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itcast-ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast_ssm_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itcast-ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itcast-ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast_ssm_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itcast-ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itcast-ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast_ssm_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itcast-ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="itcast-ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast_ssm_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560944157329" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/ssm_parent" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560946209844" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -25981,10 +25981,10 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.UserServiceImpl" />
       <item itemvalue="JUnit.testProduct.test" />
       <item itemvalue="JUnit.testProduct.test2" />
       <item itemvalue="Tomcat Server.ssm" />
-      <item itemvalue="Application.UserServiceImpl" />
     </list>
     <recent_temporary>
       <list>
@@ -26014,7 +26014,8 @@
       <workItem from="1560729980724" duration="34235000" />
       <workItem from="1560874947468" duration="1121000" />
       <workItem from="1560902640949" duration="5243000" />
-      <workItem from="1560922726740" duration="14358000" />
+      <workItem from="1560922726740" duration="15816000" />
+      <workItem from="1560946383970" duration="358000" />
     </task>
     <task id="LOCAL-00001" summary="提交ssm项目">
       <created>1560606561453</created>
@@ -26065,7 +26066,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560908087224</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="修改ssm项目">
+      <created>1560944658387</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1560944658387</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -26101,12 +26109,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114256000" />
+    <option name="totallyTimeSpent" value="116072000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25545675" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25949878" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -26115,7 +26123,7 @@
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42451155" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42451155" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39076376" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -26127,7 +26135,7 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3285968" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3285968" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.8206039" />
       <window_info anchor="bottom" id="Application Servers" order="15" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2497979" />
@@ -26178,6 +26186,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加权限管理ssm项目" />
@@ -26313,16 +26347,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itcast_ssm_web/src/main/java/com/itcast/controller/OrdersController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -26693,6 +26717,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itcast_ssm_web/src/main/java/com/itcast/controller/OrdersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
