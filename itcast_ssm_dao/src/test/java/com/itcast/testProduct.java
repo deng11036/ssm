@@ -2,8 +2,12 @@ package com.itcast;
 
 import com.itcast.dao.OrdersDao;
 import com.itcast.dao.ProductDao;
+import com.itcast.dao.RoleDao;
+import com.itcast.dao.UserInfoDao;
 import com.itcast.domain.Orders;
 import com.itcast.domain.Product;
+import com.itcast.domain.Role;
+import com.itcast.domain.UserInfo;
 import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -22,8 +26,13 @@ public class testProduct {
     @Test
     public void test2(){
         ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext-dao.xml");
-        OrdersDao ordersDao = applicationContext.getBean(OrdersDao.class);
-        Orders orders = ordersDao.findById("5DC6A48DD4E94592AE904930EA866AFA");
-        System.out.println(orders);
+        UserInfoDao userInfoDao = applicationContext.getBean(UserInfoDao.class);
+        UserInfo lisi = userInfoDao.findByUsername("lisi");
+        System.out.println(lisi);
+
+//        RoleDao bean = applicationContext.getBean(RoleDao.class);
+//        List<Role> roles = bean.findById("111-222");
+//        System.out.println(roles);
+
     }
 }
