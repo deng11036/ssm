@@ -13,7 +13,9 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Service("userService")
 public class UserServiceImpl implements UserService {
@@ -21,6 +23,22 @@ public class UserServiceImpl implements UserService {
     private UserInfoDao userInfoDao;
     @Autowired
     private BCryptPasswordEncoder bCryptPasswordEncoder;
+
+
+    @Override
+    public void addRoleToUser(String userid, String[] roleids) {
+        for (String roleid : roleids) {
+            Map<String,String> parmtMap = new HashMap<String, String>();
+            parmtMap.put("userid",userid);
+            parmtMap.put("roleid",roleid);
+           userInfoDao.addRoleToUser(parmtMap);
+        }
+    }
+
+    @Override
+    public List<Role> findOtherRole(String userId) {
+        return userInfoDao.findOtherRole(userId);
+    }
 
     @Override
     public UserInfo findById(String id) {

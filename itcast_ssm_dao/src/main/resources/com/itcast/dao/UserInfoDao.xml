@@ -39,4 +39,13 @@
     <select id="findById" parameterType="string" resultMap="usersfindById">
         select * from users where id = #{id}
     </select>
+
+    <select id="findOtherRole" parameterType="string" resultType="com.itcast.domain.Role">
+           select * from role where id not in (select roleid from users_role where userid=#{userId})
+    </select>
+
+    <insert id="addRoleToUser" parameterType="map">
+        insert into users_role(userid,roleid) values (#{userid},#{roleid})
+    </insert>
+
 </mapper>

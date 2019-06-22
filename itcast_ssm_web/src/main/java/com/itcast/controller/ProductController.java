@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.annotation.security.RolesAllowed;
 import java.util.List;
 
 @Controller
@@ -18,7 +19,7 @@ public class ProductController {
     private ProductService productService;
 
     @RequestMapping("/findAll.do")
-    @ResponseBody
+    @RolesAllowed("HHEE")
     public ModelAndView findAll(){
         ModelAndView mv = new ModelAndView();
         List<Product> productList = productService.findAll();

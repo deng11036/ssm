@@ -20,6 +20,9 @@
     <!--service配置开始-->
     <!--扫描包-->
     <context:component-scan base-package="com.itcast.service"/>
+
+    <aop:aspectj-autoproxy proxy-target-class="true"></aop:aspectj-autoproxy>
+
     <!--事务平台管理器-->
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="dataSource"></property>
@@ -34,5 +37,8 @@
     <aop:config>
         <aop:advisor advice-ref="txadvice" pointcut="execution(* com.itcast.service.*.*(..))"></aop:advisor>
     </aop:config>
+
+
+    <bean id="logAop" class="com.itcast.service.impl.LogAop"></bean>
 
 </beans>
