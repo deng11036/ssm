@@ -38,7 +38,4 @@
         <aop:advisor advice-ref="txadvice" pointcut="execution(* com.itcast.service.*.*(..))"></aop:advisor>
     </aop:config>
 
-
-    <bean id="logAop" class="com.itcast.service.impl.LogAop"></bean>
-
 </beans>

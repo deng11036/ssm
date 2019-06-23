@@ -4,8 +4,8 @@ import com.itcast.dao.RoleDao;
 import com.itcast.domain.Permission;
 import com.itcast.domain.Role;
 import com.itcast.service.RoleService;
-import org.omg.CORBA.StringHolder;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
@@ -22,6 +22,7 @@ public class RoleServiceImpl implements RoleService {
     }
 
     @Override
+    @PreAuthorize("'zs'.equals(authentication.principal.username)")
     public void save(Role role) {
         roleDao.save(role);
     }

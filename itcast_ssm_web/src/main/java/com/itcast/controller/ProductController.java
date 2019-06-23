@@ -19,7 +19,6 @@ public class ProductController {
     private ProductService productService;
 
     @RequestMapping("/findAll.do")
-    @RolesAllowed("HHEE")
     public ModelAndView findAll(){
         ModelAndView mv = new ModelAndView();
         List<Product> productList = productService.findAll();
